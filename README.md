@@ -32,7 +32,7 @@ Required R packages:
 tidyverse, 
 caret, 
 pROC, 
-randomForest, 
+randomForest 
 
 Install missing packages with:
 install.packages(c("tidyverse","caret","pROC","randomForest"))
@@ -48,12 +48,12 @@ test_predictions.csv – Predicted probabilities and classes for test customers,
 model_comparison.csv – Comparison of model performance metrics, 
 model_rf_fit.rds – Saved random forest model
 
-Repository Structure
-├─ README.md
-├─ churn_model_script.R
-├─ test_predictions.csv
-├─ model_comparison.csv
-└─ model_rf_fit.rds
+Repository Structure: 
+README.md, 
+churn_model_script.R, 
+test_predictions.csv, 
+model_comparison.csv, 
+model_rf_fit.rds
 
 Inference Example
 The script includes an example showing how to preprocess and score new customers using the saved model. This can be adapted for batch scoring or production workflows.
